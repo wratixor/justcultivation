@@ -1,0 +1,32 @@
+modLoader="javafml"
+license="MIT License"
+loaderVersion="[45,)"
+issueTrackerURL="https://github.com/wratixor/justcultivation/issues"
+
+[[mods]]
+modId="justcultivation"
+version="${file.jarVersion}"
+displayName="Just Cultivation"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/justcultivation"
+logoFile="logo.png"
+credits="Thanks you!"
+authors="Wratixor"
+#displayTest="MATCH_VERSION"
+description='''
+Just Cultivation is a mod inspired by cultivation anime.
+Cultivation (修真) is a Taoist concept that describes extending one's lifespan through practicing martial and mystical arts, with the goal of cultivating Qi: the spiritual life force
+Source - https://github.com/wratixor/justcultivation
+'''
+
+[[dependencies.justcultivation]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.justcultivation]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
